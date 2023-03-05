@@ -1,0 +1,95 @@
+.hidden{
+    display: none;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#logintext{
+    width: 100px;
+    height: 15px;
+}
+
+#loginsubmit{
+    width: 60px;
+    height: 15px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+#todo-text{
+    width: 200px;
+}
+
+
+input{
+    font-size: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 20px;
+    background: transparent;
+    color: rgb(107, 144, 177);
+}
+
+input::placeholder {
+    color: rgb(107, 144, 177);
+}
+
+#weather{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(14, 119, 218);
+}
+
+#clock{
+    color: rgb(14, 119, 218);
+}
+
+#quote{
+    color: rgb(14, 119, 218);
+    width: 100%;
+    height: 50px;
+}
+
+#greeting{
+    font-size: 10px;
+
+    color: rgb(14, 119, 218);
+}
+
+#todo-list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#todo-list li button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5px;
+    height: 15px;
+    font-size: 1px;
+    margin-left: 10px;
+}
